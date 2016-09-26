@@ -9,6 +9,11 @@ const port = process.env.PORT || 6060
 /////////middle wares////////////
 app.use(express.static('../client')) ////////telling to host files from the client folder
 /////////////////////////////////////
+app.get('/api/title', (req, res) =>
+  res.send({title: "Hello from the mean MEAN stack"})
+)
+
+
 app.listen(port, () =>
   console.log(`listening on port ${port}`)
 )
