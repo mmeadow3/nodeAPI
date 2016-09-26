@@ -1,0 +1,17 @@
+{
+  "name": "nodeAPI",
+  "description": "",
+  "main": "server/server.js",
+  "authors": [
+    "Mike Meadows <mmeadow33@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mmeadow3/nodeAPI",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
