@@ -1,0 +1,24 @@
+{
+  "name": "nodeAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmeadow3/nodeAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmeadow3/nodeAPI/issues"
+  },
+  "homepage": "https://github.com/mmeadow3/nodeAPI#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

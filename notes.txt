@@ -2,3 +2,4 @@ the 12 factor app
   by Heroku
 
 Try to create multiple folders for both client and server
+-make package.json in root directory
