@@ -12,6 +12,20 @@ app.use(express.static('../client')) ////////telling to host files from the clie
 app.get('/api/title', (req, res) =>
   res.send({title: "Hello from the mean MEAN stack"})
 )
+app.get('/api/messages', (req, res) =>
+  res.json({
+    messages: [
+      {
+        author: 'John',
+        content: 'Get a Job!',
+      },
+      {
+        author: 'Scott',
+        content: 'Node is Awesome!',
+      },
+    ],
+  })
+)
 
 
 app.listen(port, () =>
